@@ -1,0 +1,6 @@
+# PIL
+Flask
+requests
+# SQLAlchemy
+# APScheduler
+aiohttp
