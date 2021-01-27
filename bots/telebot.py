@@ -19,7 +19,7 @@ def get_proxy():
 class TeleBot:
     BOT_URL = 'http://api.telegram.org/bot%s'
     proxies = get_proxy()
-    def __init__(self, bot_id, chat_id='1408764137'):
+    def __init__(self, bot_id, chat_id):
         self.bot_id = bot_id
         self.chat_id = chat_id
     '''
